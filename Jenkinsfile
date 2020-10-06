@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('Build') {
+    stage('Build and Run') {
       steps {
         sh '''
 
@@ -17,7 +17,9 @@ pipeline {
 
 
 
-javac HelloWorld/Main.java'''
+javac HelloWorld/Main.java
+'''
+        sh 'java Main'
       }
     }
 
