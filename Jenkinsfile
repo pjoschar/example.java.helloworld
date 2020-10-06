@@ -3,13 +3,13 @@ pipeline {
   stages {
     stage('Debut') {
       steps {
-        echo 'Début Pipeline'
+        echo 'DÃ©but Pipeline'
       }
     }
 
-    stage('Run') {
+    stage('Build') {
       steps {
-        sh 'java  Main.java'
+        sh 'javac   /HelloWorld/Main.java'
       }
     }
 
