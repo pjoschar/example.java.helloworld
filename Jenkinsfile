@@ -17,9 +17,7 @@ pipeline {
 
 
 
-cd /HelloWorld &
-
-javac   Main.java'''
+javac HelloWorld/Main.java'''
       }
     }
 
