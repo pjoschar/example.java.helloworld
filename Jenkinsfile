@@ -17,9 +17,7 @@ pipeline {
 
 
 
-javac HelloWorld/Main.java
-> Main'''
-        sh 'java Main'
+javac HelloWorld/Main.java'''
       }
     }
 
