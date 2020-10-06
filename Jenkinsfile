@@ -18,7 +18,7 @@ pipeline {
 
 
 javac HelloWorld/Main.java
-> Main.class'''
+> Main'''
         sh 'java Main'
       }
     }
