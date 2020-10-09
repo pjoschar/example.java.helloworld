@@ -18,6 +18,7 @@ pipeline {
 
 
 javac HelloWorld/Main.java'''
+        sh 'java HelloWorld/Main'
       }
     }
 
